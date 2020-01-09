@@ -1,6 +1,7 @@
 declare module 'fortmatic'
 declare module 'squarelink'
 declare module '@walletconnect/web3-provider'
+declare module '@universal-login/web3'
 
 declare module '*.png'
 declare module '*.svg'

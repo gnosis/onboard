@@ -32,7 +32,7 @@ export default {
   ],
   plugins: [
     json(),
-    image(),
+    image({ exclude: 'node_modules/**' }),
     svelte({
       preprocess: preprocess(opts)
     }),
@@ -56,6 +56,7 @@ export default {
     'squarelink',
     'authereum',
     'lodash.debounce',
-    'regenerator-runtime/runtime'
+    'regenerator-runtime/runtime',
+    '@universal-login/web3'
   ]
 }

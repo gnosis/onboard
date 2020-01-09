@@ -7,8 +7,12 @@ const defaultWalletNames = [
   'coinbase',
   'trust',
   'authereum',
+  'squarelink',
+  'portis',
   'opera',
-  'operaTouch'
+  'operaTouch',
+  'walletConnect',
+  'universalLogin'
 ]
 
 function select(
@@ -67,6 +71,8 @@ function getModule(name: string): Promise<any> | undefined {
       return import('./wallets/opera')
     case 'operaTouch':
       return import('./wallets/opera-touch')
+    case 'universalLogin':
+      return import('./wallets/universal-login')
     default:
       return
   }

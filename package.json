@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "@portis/web3": "^2.0.0-beta.42",
+    "@universal-login/web3": "^0.4.4",
     "@walletconnect/web3-provider": "^1.0.0-beta.36",
     "authereum": "^0.0.4-beta.26",
     "bignumber.js": "^9.0.0",
@@ -49,6 +50,7 @@
     "fortmatic": "^0.8.2",
     "lodash.debounce": "^4.0.8",
     "regenerator-runtime": "^0.13.3",
+    "rollup-plugin-scss": "^2.1.0",
     "squarelink": "^1.1.4"
   },
   "scripts": {
