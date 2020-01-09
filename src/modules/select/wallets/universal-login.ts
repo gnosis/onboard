@@ -1,4 +1,4 @@
-import { networkName, networkToId } from '../../../utilities'
+import { networkName } from '../../../utilities'
 import { SdkWalletOptions, WalletModule, Helpers } from '../../../interfaces'
 
 const universalLoginIcon = `
